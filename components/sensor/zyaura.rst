@@ -23,7 +23,7 @@ monitors with ESPHome.
     :align: center
     :width: 80.0%
 
-    ZyAura ZGm053U connection diagram (1 - empty, 2 - clock, 3 - data, 4 - GND). In some other models the clock and data pins are swapped.
+    ZyAura ZGm053U connection diagram (1 - empty, 2 - clock, 3 - data, 4 - GND). In some other models the clock and data pins are swapped. There may be +5V connected to the pad of the lacking pin 1 that could be used as a power source. 
 
 .. code-block:: yaml
 
